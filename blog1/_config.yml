@@ -3,12 +3,12 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: Welcome to happy house
 subtitle: ''
-description: ''
-keywords:
+description: 'Log for life and study, support by hexo and github pages.'
+keywords: 
 author: xiaohu
-language: en
+language: zh-CN
 timezone: ''
 
 # URL
@@ -106,3 +106,11 @@ deploy:
   type: 'git'
   repo: 'https://github.com/SimpleXiaohu/xiaohu.github.io.git'
   branch: 'master'
+
+# Search
+## See: https://github.com/theme-next/hexo-generator-searchdb
+search:
+  path: search.json
+  field: post
+  content: true
+  format: striptags
